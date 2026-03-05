@@ -5,30 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product 1</title>
 
-  <link rel="stylesheet" href="Style.css">
+  <!-- Use your Products CSS OR root CSS, pick one -->
+  <link rel="stylesheet" href="/Products/Style.css">
 </head>
 
 <body>
   <div class="container">
 
     <header class="nav">
-      <img src="../Images/SP LOGO.svg" class="logo" alt="SP Brand Logo">
+      <img src="/Images/SP LOGO.svg" class="logo" alt="SP Brand Logo">
 
       <div class="nav-icons">
-        <img src="../Images/CART.svg" alt="Cart">
-        <img src="../Images/WL.svg" alt="Wishlist">
-        <img src="../Images/SETTINGS.svg" alt="Settings">
+        <img src="/Images/CART.svg" alt="Cart">
+        <img src="/Images/WL.svg" alt="Wishlist">
+        <img src="/Images/SETTINGS.svg" alt="Settings">
       </div>
     </header>
 
     <section class="product-hero">
-
-      <video autoplay muted loop playsinline preload="auto">
-        <source src="../Video/Cat.mp4" type="video/mp4">
+      <video class="product-video" autoplay muted loop playsinline preload="auto">
+        <source src="/Video/Cat.mp4" type="video/mp4">
       </video>
 
       <button class="cart-btn">Add to Cart</button>
-
     </section>
 
   </div>
