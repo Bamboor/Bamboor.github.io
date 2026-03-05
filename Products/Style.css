@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,7 +41,7 @@ body {
 
 /* PRODUCT PAGE WHITE AREA */
 .product-hero {
-  height: 350px;
+  height: 100vh; /* Full viewport height */
   position: relative;
   background: #e8e8e8;
   overflow: hidden;
@@ -60,8 +60,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures video covers the entire container */
-  z-index: -1; /* Ensures the video stays behind other elements */
+  object-fit: cover;
+  z-index: -1;
 }
 
 .product-text {
